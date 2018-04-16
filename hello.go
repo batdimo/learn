@@ -9,5 +9,5 @@ import (
 
 func main() {
 
-	fmt.Println("random number" , rand.Intn(10000))
+	fmt.Println("random number" , rand.Intn(70000))
 }
