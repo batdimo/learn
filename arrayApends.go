@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-
+import (
+    "fmt"
+    d "github.com/batdimo/learn/divisor"
+)
 func main() {
 	var s []int
 	printSlice(s)
@@ -24,7 +26,8 @@ func main() {
 	}
 	for _, value := range pow {
 		fmt.Printf("%d\n", value)
-	}
+	} 
+    fmt.Println(d.Div(324112247,666))
 }
 
 func printSlice(s []int) {
