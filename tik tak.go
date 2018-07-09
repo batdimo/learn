@@ -12,9 +12,9 @@ func main() {
 		[]string{"_", "_", "_"},
 		[]string{"_", "_", "_"},
 		[]string{"_", "_", "_"},
-		//[]string{x, "_", x},
-		//[]string{o, "_", x},
-		//[]string{"_", "_", o},
+		//[]stringdemo{x, "_", x},
+		//[]stringdemo{o, "_", x},
+		//[]stringdemo{"_", "_", o},
 	}
 
 	// The players take turns.

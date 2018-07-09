@@ -16,3 +16,14 @@ func Sqrt1(x float64) float64 {
 func main() {
 	fmt.Println(Sqrt1(169))
 }
+func Print(arr []int) {
+	fmt.Print("[")
+	for i, e := range arr {
+		if i == len(arr)-1 {
+			fmt.Printf("%v", e)
+		} else {
+			fmt.Printf("%v ", e)
+		}
+	}
+	fmt.Println("]")
+}

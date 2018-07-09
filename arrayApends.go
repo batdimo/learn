@@ -27,7 +27,7 @@ func main() {
 	for _, value := range pow {
 		fmt.Printf("%d\n", value)
 	} 
-    fmt.Println(d.Div(324112247,666))
+    fmt.Println(d.Divm(8,64))
 }
 
 func printSlice(s []int) {
